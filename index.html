@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Tacos</title>
+        <!--Links to the css file for this page-->
+        <link rel="stylesheet" href="./css/styles.css"> 
+        
+    </head>
+
+    <body onload="myLoad()">
+        <nav>
+            <!--Navigation bar at top of page to link to other html documents-->
+            <a class="active" href="index.html" target="_self">Home</a>
+            <a href="recipe.html" target="_self">Recipes</a>  
+            <a href="gallery.html" target="_self">Gallery</a>
+            <a href="myAccount.html" target="_self">My Account</a>
+        </nav>
+
+        <!--Image to go aside the heading-->
+        <aside class="logo1">
+            <img id="image3" src = "Images/image3.jpeg" alt = "image not displaying">
+        </aside>
+        <aside class="logo2">
+            <img id="image3Reverse" src = "Images/image3.jpeg" alt = "image not displaying">
+        </aside>
+
+        <!--Multiple headings to differentiate sections-->
+        <h1>TACOS</h1>
+        <h2>100% VEGAN</h2>
+
+        <!--The main section of a page including images and text-->
+        <div id="container">
+            <aside id="aside1">
+                <img id="image1" src = "Images/image1.jpeg" alt = "image not displaying">
+            </aside>
+            <section class="paragraph">
+                <h3>About</h3>
+                <p>If you like tacos you're in the right place! Try out some of our easy to make vegan tacos!</p>
+                <p>"A balanced diet is a taco in each hand" Person, 2022</p>
+                <p>"I wish I was full of tacos instead of emotions" Person, 2018</p>
+                <p>To see more testimonals to tacos please visit</p>
+                <!--makes use of a link to a different website, opens in new tab to stay on current page-->
+                <a target="_blank" href="https://borrachavegas.com/great-quotes-tacos-every-taco-lover/">click here</a></li>
+                <!--Two one quotes-->
+            </section>
+            <aside id="aside2">
+                <img id="image2" src = "Images/image2.jpeg" alt = "image not displaying">
+            </aside>
+        </div>
+
+        <!--The footer of the page containing input both via text and radio button with a submit button-->
+        <div class="subscribe">
+            <p>If you would like to subscribe to new recipes please fill in your details below</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email">
+                <label for="phone">Mobile:</label>
+                <input type="text" id="phone" name="phone"><br>
+                <p>How would you like to be contacted?</p>
+                <label for="email2">Email</label>
+                <input type="radio" id="email2" name="email2">
+                <label for="sms">SMS</label>
+                <input type="radio" id="sms" name="sms">
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="both"><br>
+                <input type="button" value="Submit" id="submitForm">
+            </form>
+
+            
+        </div>
+        
+        <script type="text/javascript" src="./js/tacoWebsite.js"></script>
+    </body>
+</html>
+
+<!--
+Image Sources
+https://www.aheadofthyme.com/vegan-chickpea-tacos/
+https://nosweatvegan.com/vegan-street-tacos-tofu/
+https://www.freepik.com/free-photos-vectors/cartoon-taco
+-->
