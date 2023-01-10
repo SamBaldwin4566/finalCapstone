@@ -18,6 +18,23 @@ While studying in my Web Development Bootcamp I was given the task to build a co
 
 <a name="usage"></a>
 ## Usage
+When you open index.html it will take you to the websites home page.<br><br>
+<img src="./Images/Screenshot1.png" width="50%"><br><br>
+
+Use the Navigation Bar at the top to take you to the different webpages. My Account is will at first be empty ready to be populated with details of the user, images and recipes using session storage.<br><br>
+<img src="./Images/Screenshot2.png" width="50%"><br><br>
+
+When you click an image a prompt box will appear asking if you would like to save the image for later and then let you know how many images/recipes you have saved to your account<br><br>
+<img src="./Images/Screenshot3.png" width="45%">|<img src="./Images/Screenshot4.png" width="45%"><br><br>
+
+The form at the bottom of the page allows you to 'subscirbe' and create an account.<br><br>
+<img src="./Images/Screenshot5.png" width="50%"><br><br>
+
+All the details/recipes/images saved will populate My Account.<br><br>
+<img src="./Images/Screenshot6.png" width="50%"><br><br>
+
+
+
 
 
 
