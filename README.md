@@ -11,7 +11,7 @@ While studying in my Web Development Bootcamp I was given the task to build a co
 ## Installation
 * Create a folder on your local drive
 * Get to the directory in your terminal using cd
-* Initialise the respository in your directory $ git init
+* Initialise the repository in your directory $ git init
 * Clone the remote repository $ git clone https://github.com/SamBaldwin4566/finalCapstone
 * Open the index.html page as the opening page
 
