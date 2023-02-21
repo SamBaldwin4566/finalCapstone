@@ -2,24 +2,30 @@
 body {
     background-color:peachpuff;
     text-align: center;
-    max-width:80%;
+    max-width:90%;
     margin-left:auto;
     margin-right:auto;
     color:dimgray;
-    font-family: fantasy;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
 }
 /* Navigation bar at top of page */
 nav {
+    margin-top: 8.5%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#333;
     overflow: hidden;
     border-top: solid #333 7px;
+    box-shadow: 0px 8px 6px -6px black;
 }
 nav a {
     padding: 20px 40px;
     text-decoration: none;
     color:white;
     text-decoration: none;
+    
     
 }
 /* Change colour of navigation button when hovering over */
@@ -29,37 +35,48 @@ nav a:hover {
 }
 /* Colour of button of the current page */
 nav a.active {
-    background-color: peachpuff;
+    
     color: dimgray;
+    margin-top: -5%;
 }
 /* Heading 1 in its own block of text with different background colour */
 h1 {
-    font-size: 6vw;
+    font-size: 7vw;
     background-color: dimgray;
     color:tan;
     margin-left: auto;
     margin-right: auto;
-    margin-top:1.5%;
-    padding-top: 1.3%;
+    margin-top: -1%;
+    padding-top: 2%;
+    padding-bottom:3.4%;
+    margin-bottom: -10%;
+    text-shadow: 3 px 3px  black
     
 }
 /* Logo image in top corners of page  */
 .logo1 {
     float: left;
+    
 }
 #image3{
-    max-width: 11vw;
-    border:solid #333 7px;
-    border-top:none
+    max-width: 13.5vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border:solid #333 10px;
+    
 }
 .logo2 {
     float: right;
+    
 }
 /* Same image but flipped */
 #image3Reverse{
-    max-width: 11vw;
-    border:solid #333 7px;
-    border-top:none;
+    max-width: 13.5vw;
+    border:solid #333 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     transform: scaleX(-1);
 }
 h2 {
@@ -82,7 +99,11 @@ h2 {
 section {
     grid-column: 2/5;
     grid-row:1/1;
-    max-width: 20vw;
+    max-width: 30vw;
+    padding: 30px;
+    background-color:burlywood ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #ccc;
 }
 #aside2 {
     grid-column: 6/6;
@@ -98,11 +119,8 @@ section {
     border: solid dimgray 7px;
     border-radius: 20px;
 }
-/* paragraph in its own block of text with difrent background colour containing information and testimonials */
-.paragraph {
-    background-color:burlywood ;
-    border-radius: 20px;
-}
+
+
 
 
 /* Styles specific for recipe page */
@@ -115,6 +133,8 @@ section {
     max-width: 1200px;
     border: solid;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right:auto;
 }
 #recipe1 {
     grid-column: 1/1;
@@ -217,4 +237,7 @@ h4 {
 }
 input {
     width:8vw;
+}
+#userName {
+    font-size: 20px;
 }

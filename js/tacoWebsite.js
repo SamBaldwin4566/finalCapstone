@@ -144,7 +144,7 @@ function updateDetails() {
         userDetails.innerHTML = ""
     }
     else {
-        userName.innerHTML = saveData[2].userName;
-        userDetails.innerHTML = `${saveData[2].email} -- ${saveData[2].phoneNumber}`;
+        userName.innerHTML = "Welcome " + saveData[2].userName;
+        
     }; 
 };
